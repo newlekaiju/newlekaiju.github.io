@@ -28,21 +28,22 @@
  replay-btn" aria-hidden="true"></i></a>
     <div class="post-title">
         <p>
-            安装个人博客 - hexo
+            安装个人博客-hexo
         </p>
         <hr>
     </div>
     <div class="post-content">
         <p>node.js</p>
 <p>命名为 http://<username>.github.io</p>
-<p>$ npm install -g hexo-cli<br>$ npm install hexo-server –save</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br><span class="line">$ npm install hexo-server --save</span><br></pre></td></tr></table></figure>
+
 <p>安装hexo-deployer-git插件<br>$ npm install hexo-deployer-git –save</p>
 <p>初始化博客</p>
 <p>$ hexo init blog</p>
 <p>测试hexo是否安装成功：</p>
 <p>$ hexo new test<br>$ hexo g<br>$ hexo s</p>
 <p>进入 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a> 即可看到生成的网页</p>
-<p>配置<br>_config.yml 文件</p>
+<h4 id="你好"><a href="#你好" class="headerlink" title="你好"></a>你好</h4><p>配置<br>_config.yml 文件</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line"> type: &#x27;git&#x27;</span><br><span class="line"> repo: git@github.com:lekaiju/lekaiju.github.io.git</span><br><span class="line"> branch: master</span><br></pre></td></tr></table></figure>
 
     </div>
